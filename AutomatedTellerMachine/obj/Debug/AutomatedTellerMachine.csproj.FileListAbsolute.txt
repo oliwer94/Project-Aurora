@@ -1,0 +1,228 @@
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\AutomatedTellerMachine.dll.config
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\AutomatedTellerMachine.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\AutomatedTellerMachine.pdb
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Antlr3.Runtime.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\EntityFramework.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\EntityFramework.SqlServer.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Web.Infrastructure.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Newtonsoft.Json.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Owin.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.Helpers.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.Mvc.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.Optimization.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.Razor.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.WebPages.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\WebGrease.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Antlr3.Runtime.pdb
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\EntityFramework.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\EntityFramework.SqlServer.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Newtonsoft.Json.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.Helpers.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.Mvc.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.Razor.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.WebPages.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\System.Web.Optimization.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.dll
+c:\Users\msullivan\Documents\Visual Studio 2013\Projects\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.pdb
+C:\Users\msullivan\documents\visual studio 2013\Projects\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csprojResolveAssemblyReference.cache
+C:\Users\msullivan\documents\visual studio 2013\Projects\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.Migrations.InitialCreate.resources
+C:\Users\msullivan\documents\visual studio 2013\Projects\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csproj.GenerateResource.Cache
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\AutomatedTellerMachine.dll.config
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\AutomatedTellerMachine.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\AutomatedTellerMachine.pdb
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Antlr3.Runtime.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.SqlServer.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Newtonsoft.Json.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Owin.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Helpers.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Mvc.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Optimization.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Razor.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\WebGrease.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Antlr3.Runtime.pdb
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.SqlServer.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Newtonsoft.Json.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Helpers.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Mvc.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Razor.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Optimization.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csprojResolveAssemblyReference.cache
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.Migrations.InitialCreate.resources
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csproj.GenerateResource.Cache
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.dll
+C:\Users\oliwer\Documents\My Games\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.pdb
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\AutomatedTellerMachine.dll.config
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\AutomatedTellerMachine.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\AutomatedTellerMachine.pdb
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Antlr3.Runtime.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.SqlServer.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Newtonsoft.Json.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Owin.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Helpers.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Mvc.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Optimization.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Razor.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\WebGrease.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Antlr3.Runtime.pdb
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.SqlServer.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Newtonsoft.Json.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Helpers.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Mvc.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Razor.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Optimization.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csprojResolveAssemblyReference.cache
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.Migrations.InitialCreate.resources
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csproj.GenerateResource.Cache
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.dll
+C:\Users\Boris\Documents\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.pdb
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\AutomatedTellerMachine.dll.config
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\AutomatedTellerMachine.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\AutomatedTellerMachine.pdb
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Antlr3.Runtime.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.SqlServer.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Web.Infrastructure.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Newtonsoft.Json.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Owin.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Helpers.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Mvc.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Optimization.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Razor.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\WebGrease.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Antlr3.Runtime.pdb
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\EntityFramework.SqlServer.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Newtonsoft.Json.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Helpers.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Mvc.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Razor.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\System.Web.Optimization.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csprojResolveAssemblyReference.cache
+C:\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.Migrations.InitialCreate.resources
+C:\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.csproj.GenerateResource.Cache
+C:\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.dll
+C:\Aurora-autoteller\AutomatedTellerMachine\obj\Debug\AutomatedTellerMachine.pdb

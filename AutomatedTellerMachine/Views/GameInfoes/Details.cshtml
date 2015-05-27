@@ -1,0 +1,142 @@
+﻿@model AutomatedTellerMachine.Models.GameInfo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container">
+
+    <div class=" container panel panel-primary col-xs-3" style="height: 350px;">
+        <div class="panel-heading">
+            <h3 class="panel-title">Game Overview</h3>
+        </div>
+        <div class="panel-body ">
+            Title: @Html.DisplayFor(model => model.Title)<br>
+            Developer: @Html.DisplayFor(model => model.Developer)<br>
+            Publisher: @Html.DisplayFor(model => model.Publisher)<br>
+            Platform(s): @Html.DisplayFor(model => model.Platforms)<br>
+            Release Date: @Html.DisplayFor(model => model.ReleaseDate)<br>
+            Metacritic: @Html.DisplayFor(model => model.MetaCriticScore)<br>
+            Genre: @Html.DisplayFor(model => model.Genre)<br>
+        </div>
+    </div>
+
+    <div class=" container col-xs-6 well well-lg" style="height: 350px;">
+        @Html.DisplayFor(model => model.Description)
+    </div>
+
+    <div class="container col-xs-2">
+        <a href="http://blog.dota2.com/?l=english"><img class="img-rounded" src="@Html.DisplayFor(model => model.InPageImage)" alt="Dota 2"></a>
+    </div>
+
+</div>
+
+<div class="container imageSetting">
+    <div class="panel panel-default text-center" data-toggle="collapse" data-target="#demo">
+
+        <div id="menu_toggle" class="panel-body text-center">
+            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            Reviews <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+        </div>
+
+        <div id="demo" class="collapse">
+
+            <div class="col-xs-3 imageSetting">
+                <a href="@Html.DisplayFor(model => model.ReviewLinks)" class="thumbnail">
+                    <img class=" img-rounded" src="/Images/ReviewThumbs/ignReviewThumb255.png" alt="IGNReviewThumb">
+                </a>
+            </div>
+
+            <div class="col-xs-3 imageSetting">
+                <a href="@Html.DisplayFor(model => model.ReviewLinks2)" class="thumbnail">
+                    <img class=" img-rounded" src="/Images/ReviewThumbs/kotaku_review255.png" alt="kotakureview">
+                </a>
+            </div>
+
+            <div class="col-xs-3 imageSetting">
+                <a href="@Html.DisplayFor(model => model.ReviewLinks3)" class="thumbnail">
+                    <img class=" img-rounded" src="/Images/ReviewThumbs/gamespotReviewThumb255.png" alt="GamespotReviewThumb">
+                </a>
+            </div>
+
+            <div class="col-xs-3 imageSetting">
+                <a href="@Html.DisplayFor(model => model.ReviewLinks4)" class="thumbnail">
+                    <img class=" img-rounded" src="/Images/ReviewThumbs/eurogamerReviewThumb255.png" alt="EurogamerReviewThumb">
+                </a>
+            </div>
+            <div class="clearfix">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container imageSetting">
+    <div class="panel panel-default text-center" data-toggle="collapse" data-target="#demo2">
+        <div id="menu_toggle2" class="panel-body text-center">
+            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Trailers <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+        </div>
+
+        <div id="demo2" class="collapse">
+
+            <iframe width="552" height="315" src="@Html.DisplayFor(model => model.VideoUrl)" frameborder="0" allowfullscreen></iframe>
+            <iframe width="552" height="315" src="@Html.DisplayFor(model => model.VideoUrl2)" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container imageSetting">
+    <div class="panel panel-default text-center" data-toggle="collapse" data-target="#demo3">
+        <div id="menu_toggle3" class="panel-body text-center">
+            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Screenshots <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+        </div>
+        <div id="demo3" class="collapse">
+
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <a href="@Html.DisplayFor(model => model.Thumbnail)" class="thumbnail">
+                        <img src="@Html.DisplayFor(model => model.Thumbnail)" alt="Dota2Screenshot1">
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <a href="@Html.DisplayFor(model => model.Thumbnail2)" class="thumbnail">
+                        <img src="@Html.DisplayFor(model => model.Thumbnail2)" alt="Dota2Screenshot2">
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <a href="@Html.DisplayFor(model => model.Thumbnail3)" class="thumbnail">
+                        <img src="@Html.DisplayFor(model => model.Thumbnail3)" alt="Dota2Screenshot3">
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <a href="@Html.DisplayFor(model => model.Thumbnail4)" class="thumbnail">
+                        <img src="@Html.DisplayFor(model => model.Thumbnail4)" alt="Dota2Screenshot3">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clearfix">
+
+</div>
+
+@section Scripts
+ {
+    <script type="text/javascript">
+        $('#menu_toggle').click(function () {
+            $(this).find('span').toggleClass('glyphicon glyphicon-plus-sign').toggleClass('glyphicon glyphicon-minus-sign');
+        });
+        $('#menu_toggle2').click(function () {
+            $(this).find('span').toggleClass('glyphicon glyphicon-plus-sign').toggleClass('glyphicon glyphicon-minus-sign');
+        });
+        $('#menu_toggle3').click(function () {
+            $(this).find('span').toggleClass('glyphicon glyphicon-plus-sign').toggleClass('glyphicon glyphicon-minus-sign');
+        });
+    </script>
+}

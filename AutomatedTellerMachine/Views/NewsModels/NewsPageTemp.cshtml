@@ -1,0 +1,76 @@
+﻿@using Newtonsoft.Json
+@model System.Collections.Generic.IEnumerable<AutomatedTellerMachine.Models.NewsModel>
+
+<div data-bind="foreach:currentArticles">
+    <div class="col-sm-6 col-md-6 catpad">
+        <div class="img-thumbnail">
+            <a data-bind="attr: { 'href': '@Url.Action("Details", "NewsModels")/' + Id}">
+                <img class="img-responsive" data-bind="attr:{src: NewsImageUrl}" alt="The URL is invalid.">
+                <h2 class=" text-center" data-bind="text:NewsTitle"></h2>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="col-xs-12">
+    <span data-bind="click:previousPage,visible:currentPage() > 1" class="glyphicon glyphicon-circle-arrow-left" style="cursor:pointer;"></span>
+    <span data-bind="text:currentPage"></span>
+    <span data-bind="click:nextPage,visible:currentPage() < lastPage" class="glyphicon glyphicon-circle-arrow-right" style="cursor:pointer;"></span>
+</div>
+<div class="col-xs-12">
+    <span> </span>
+</div>
+
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="col-xs-12">
+    <a href='@Url.Action("Index", "NewsModels")' class="glyphicon glyphicon-plus" title="Manage News entries"></a>
+        </div>
+}
+<div class="clearfix"></div>
+
+<script src="~/Scripts/knockout-3.3.0.js"></script>
+<script>
+
+    function NewsViewModel() {
+        var self = this;
+
+        // properties
+        self.articles = @Html.Raw(JsonConvert.SerializeObject(Model, new JsonSerializerSettings{ReferenceLoopHandling = ReferenceLoopHandling.Ignore}));
+        self.pageSize = 4;
+        self.lastPage = Math.ceil(self.articles.length / self.pageSize);
+        self.currentPage = ko.observable(1);
+        self.currentArticles = ko.computed(function(){
+            var startIndex = (self.currentPage() - 1) * self.pageSize;
+            var endIndex = startIndex + self.pageSize;
+            var reversed = self.articles.reverse();
+             return reversed.slice(startIndex,endIndex);
+        });
+
+        // methods
+        self.nextPage = function(){
+            self.currentPage(self.currentPage() + 1);
+        };
+        self.previousPage = function(){
+            self.currentPage(self.currentPage() - 1);
+        };
+    };
+
+    ko.applyBindings(new NewsViewModel());
+</script>
+
+
+
+@*
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-6 col-md-6">
+            <div class="img-thumbnail">
+                <a href='@Url.Action("Details", "NewsModels", new { id = item.Id })'>
+                    <img class="img-responsive" src="@Html.DisplayFor(model => item.NewsImageUrl)" alt="@Html.DisplayFor(model => item.NewsTitle)">
+                    <h2 class="text-center"><span>"@Html.DisplayFor(model => item.NewsTitle)"</span></h2>
+                </a>
+            </div>
+        </div>
+    }*@

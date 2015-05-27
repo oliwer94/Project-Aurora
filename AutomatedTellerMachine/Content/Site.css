@@ -1,0 +1,119 @@
+﻿body {
+    padding-bottom: 20px;
+    background-image: url("../Images/Background Images/mememe.png");
+    background-size: 100%; 
+}   
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#header {
+    background-image: url("../Images/Header/WebHeader1200x250.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    height: 250px;
+ 
+}
+
+#menu{
+    height: 100%;
+	width: 100%;  /*---Give our UL a width ---*/
+	list-style:none;  /*--- Makes the bullets go away ---*/
+	margin:0;  /*--- Take out any default margin on the UL tag ---*/
+	padding:0;  /*--- Take out any default padding on the UL tag ---*/
+	margin:0 auto;  /*--- Center the menu ---*/
+}
+
+#menu li{
+	float:left;  /*--- Make the list go horizontal ---*/
+	margin:0;
+}
+ 
+#menu li a{
+	display:block;  /*--- Make the entire button are clickable rather than the text alone ---*/
+	text-indent: -9999px; /*--- Push the text off screen to hide text---*/
+	overflow: hidden; /*--- Makes text outside of bounding box hidden ---*/
+	height:33px;
+ 
+}
+
+#menu li#home a{
+	background: url(../Images/Buttons/WebsiteMenuHomeBlack.png) no-repeat;
+    width: 151px;
+    padding-left: 20px;	
+}
+
+#menu li#home a:hover{
+	background: url(../Images/Buttons/WebsiteMenuHomeOrange.png) no-repeat;
+} 
+
+#menu li#news a{
+	background: url(../Images/Buttons/WebsiteMenuNewsBlack.png) no-repeat;
+    width: 151px;
+    padding-left: 20px;		
+}
+
+#menu li#news a:hover{
+	background: url(../Images/Buttons/WebsiteMenuNewsOrange.png) no-repeat;	
+}
+
+#menu li#catalog a{
+	background: url(../Images/Buttons/WebsiteMenuCatalogBlack.png) no-repeat;
+    width: 151px;
+    padding-left: 20px;		
+}
+
+#menu li#catalog a:hover{
+	background: url(../Images/Buttons/WebsiteMenuCatalogOrange.png) no-repeat;	
+}
+
+#menu li#forum a{
+	background: url(../Images/Buttons/WebsiteMenuForumBlack.png) no-repeat;
+    width: 151px;
+    padding-left: 20px;		
+}
+
+#menu li#forum a:hover{
+	background: url(../Images/Buttons/WebsiteMenuForumOrange.png) no-repeat;	
+}
+
+#menu li#profile a{
+	background: url(../Images/Buttons/WebsiteMenuProfileBlack.png) no-repeat;
+    width: 151px;
+    padding-left: 20px;	
+}
+
+#menu li#profile a:hover{
+	background: url(../Images/Buttons/WebsiteMenuProfileOrange.png) no-repeat;	
+}
+
+.catpad 
+{
+    padding-top: 10px;
+}
+
+.catpadtb {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dingo {
+  background-image: url('../Images/General/Backgroundeffect.png');
+}

@@ -1,0 +1,32 @@
+﻿@model AutomatedTellerMachine.Models.NewsModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+
+<div class="container">
+    <div class="col-xs-12">
+        <img class="img-responsive img-rounded" src="@Html.DisplayFor(model => model.NewsImageUrl)" alt="@Html.DisplayFor(model => model.NewsTitle)">
+    </div>
+</div>
+
+<div class="container col-xs-12 well well-lg">
+    <section>
+        <h1 class=" text-center text-primary">@Html.DisplayFor(model => model.NewsTitle)</h1>
+        <p>
+           @Html.DisplayFor(model => model.NewsPart1)
+        </p>
+        <p class="text-center">
+            <iframe width="560" height="315" src="@Html.DisplayFor(model => model.VideoUrl)" frameborder="0" allowfullscreen></iframe>
+        </p>
+        <p>
+            @Html.DisplayFor(model => model.NewsPart2)
+        </p>
+    </section>
+</div>
+
+<div class="clearfix">
+</div>
+

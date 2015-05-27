@@ -1,0 +1,76 @@
+﻿@using System.Linq
+@using AutomatedTellerMachine.Models
+@using Newtonsoft.Json
+@model System.Collections.Generic.IEnumerable<AutomatedTellerMachine.Models.GameInfo>
+@{
+    ViewBag.Title = "GameCatalogTemp";
+}
+@*
+    @foreach (var item in Model.Reverse())
+    {
+        <div class="col-xs-3 catpad">
+            <a href='@Url.Action("Details", "GameInfoes", new {id = item.Id})'><img class="img-rounded img-responsive" src="@Html.DisplayFor(modelItem => item.InPageImage)" alt="@Html.DisplayFor(modelItem => item.Title)"></a>
+        </div>
+    }
+*@
+
+<div data-bind="foreach:currentArticles">
+    <div class="col-xs-3 catpad">
+        <a data-bind="attr: { 'href': '@Url.Action("Details", "GameInfoes")/' + Id}">
+            <img class="img-rounded img-responsive" data-bind="attr:{src: InPageImage}" alt="text:title">
+        </a>
+    </div>
+</div>
+<div class="col-xs-12">
+    <span data-bind="click:previousPage,visible:currentPage() > 1" class="glyphicon glyphicon-circle-arrow-left" style="cursor:pointer;"></span>
+    <span data-bind="text:currentPage"></span>
+    <span data-bind="click:nextPage,visible:currentPage() < lastPage" class="glyphicon glyphicon-circle-arrow-right" style="cursor:pointer;"></span>
+</div>
+<div class="col-xs-12">
+    <span> </span>
+</div>
+
+<div class="col-xs-12">
+    <span> </span>
+</div>
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="col-xs-12">
+        <a href='@Url.Action("Index", "GameInfoes")' class="glyphicon glyphicon-plus" title="Manage Review entries"></a>
+    </div>
+}
+<div class="clearfix"></div>
+
+<script src="~/Scripts/knockout-3.3.0.js"></script>
+<script>
+
+    function NewsViewModel() {
+        var self = this;
+
+        // properties
+        self.articles = @Html.Raw(JsonConvert.SerializeObject(Model, new JsonSerializerSettings{ReferenceLoopHandling = ReferenceLoopHandling.Ignore}));
+        self.pageSize = 8;
+        self.lastPage = Math.ceil(self.articles.length / self.pageSize);
+        self.currentPage = ko.observable(1);
+        self.currentArticles = ko.computed(function(){
+            var startIndex = (self.currentPage() - 1) * self.pageSize;
+            var endIndex = startIndex + self.pageSize;
+           // var reversed = self.articles.reverse();
+            self.articles.sort(function(left, right) 
+            { return left.Title === right.Title ? 0 : (left.Title < right.Title ? -1 : 1) }
+            );
+            return self.articles.slice(startIndex,endIndex);
+        });
+
+        // methods
+        self.nextPage = function(){
+            self.currentPage(self.currentPage() + 1);
+        };
+        self.previousPage = function(){
+            self.currentPage(self.currentPage() - 1);
+        };
+    };
+
+    ko.applyBindings(new NewsViewModel());
+</script>

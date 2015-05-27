@@ -1,0 +1,74 @@
+﻿@model System.Collections.Generic.IEnumerable<AutomatedTellerMachine.Models.CommentModel>
+
+<h1>Topic: @ViewBag.Title</h1>
+<h2>Question: @ViewBag.Question</h2>
+<h4>Sender: @ViewBag.Sender</h4>
+
+
+
+<div>
+    <p>
+        
+    </p>
+</div>
+<table class="table">
+    <tr>
+        <th>
+            Username
+        </th>
+        <th>
+           Message
+        </th>
+       
+        <th></th>
+    </tr>
+    @{ var threadid = ViewBag.ThreadId;
+    }
+@foreach (var item in Model) {
+    <tr>
+        <td>
+          @Html.DisplayFor(model => item.User.UserName)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.message)
+        </td>
+
+        @if (item.ApplicationUserId.ToString() == @ViewBag.AppUserId)
+        {
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id, threadId = threadid })
+            </td>
+        }
+        else
+        {
+            <td></td>}
+        
+    </tr>
+}
+
+</table>
+
+@if (User.Identity.IsAuthenticated)
+{
+    using (Html.BeginForm("Index", "CommentModels", FormMethod.Post))
+    {
+
+        <div id="formSection">
+            <h3>Share your opinion below:</h3>
+
+            <textarea name="message"></textarea>
+            <input type="submit" value="Send"/>
+            <input type="hidden" name="threadId" value="@ViewBag.ThreadId"/>
+        </div>
+    }
+}
+else
+{
+    <h4>You need to be logged in to comment on this thead</h4>
+}
+
+<div></div>
+
+<a class="glyphicon glyphicon-arrow-left"  href='@Url.Action("Index", "ForumModels" )'></a>

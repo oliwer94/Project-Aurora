@@ -1,0 +1,86 @@
+﻿@using System.Linq
+@using Microsoft.Ajax.Utilities
+@model System.Collections.Generic.IEnumerable<AutomatedTellerMachine.Models.NewsModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+<div id="myCarousel" class="carousel slide" style="width: 1000px; margin: 0 auto">
+    <div class="carousel-inner">
+        <div class="item">
+            <a href="#">
+                <img src="../../Images/Carousel/oriandblind.jpg"
+                     alt="Ori and the Blind Forest">
+            </a>
+            <div class="carousel-caption">
+                <h4>Ori and The Blind Forest Review</h4>
+                <p>
+                    A charming and visually beautiful adventure.
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <a href="#">
+                <img src="../../Images/Carousel/FF-Type-0-HD_01.jpg"
+                     alt="Final Fantasy Type-0 HD">
+            </a>
+            <div class="carousel-caption">
+                <h4>Final Fantasy Type-0 HD Review</h4>
+                <p>
+                    A mixed rpg and in 520p no less.
+                </p>
+            </div>
+        </div>
+
+        <div class="item active">
+            <a href="#">
+                <img src="../../Images/Carousel/Bloodborne.jpg"
+                     alt="BloodBorne">
+            </a>
+            <div class="carousel-caption">
+                <h4>Third Thumbnail label</h4>
+                <p>
+                    Demons Souls for the PS4
+                </p>
+            </div>
+        </div>
+
+    </div> <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    </a>
+
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </a>
+
+</div>
+    </div>
+
+<div class="container">
+    <img class="img-responsive catpad col-xs-12" src="/Images/General/Latest News.png" alt="latestnews">
+    <div class="row">
+    </div>
+</div>
+
+@{ var i = 0; }
+
+@foreach (var item in Model.Reverse())
+{
+    i++;
+    <div class="col-sm-6 col-md-6 catpad">
+        <div class="img-thumbnail">
+            <a href='@Url.Action("Details", "NewsModels", new {id = item.Id})'>
+                <img class="img-responsive" src="@Html.DisplayFor(model => item.NewsImageUrl)" alt="@Html.DisplayFor(model => item.NewsTitle)">
+                <h2 class="text-center"><span>"@Html.DisplayFor(model => item.NewsTitle)"</span></h2>
+            </a>
+        </div>
+    </div>
+    if (i > 3)
+    {
+        break;
+    }
+}
+    <div class="clearfix"></div>
+ 
